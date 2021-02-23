@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01.15-18 Web pag Kikaku : Assess You !!</title>
+    <link rel="stylesheet" href="assess.css"><!-- スタイルシートの指定 -->
+</head>
+<body>
+    <h1>Input your PR Point!!</h1>
+    <p>診断したい名前を入れてください</p>
+    <!-- ボタン，InputBoxの指定と，idの設定 ,jsの指定-->
+    <input id="user-name" type="text" size="40" maxlength="20">
+    <button id ="assessment">診断する</button>
+    <div id="result-area"></div>
+    <div id="tweet-area">
+        <!-- 
+        <a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" 
+        class="twitter-hashtag-button" 
+        data-text="診断結果の文章" 
+        data-show-count="false">Tweet #あなたのいいところ</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>"> -->
+    </div>
+    <script src="assess.js"></script>
+</body>
+</html>
