@@ -96,6 +96,7 @@ const answers = [
 '{inputName}のいいところは気配りです。{inputName}の配慮が多くの人を救っています。',
 '{inputName}のいいところはその全てです。ありのままの{inputName}自身がいいところなのです。',
 '{inputName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{inputName}が皆から評価されています。',
+'{inputName} is very good person. You are a Perfect Creature!!', 
 ];
 
 /**
